@@ -17,7 +17,6 @@ import {
   PortfolioLink,
   BuiltWith,
   PortfolioMeta,
-  MetaItem,
 } from './portfolioShowcase.style';
 import { PrevButton, NextButton } from '../portfolio.style';
 import { PORTFOLIO_SHOWCASE } from 'common/data/Portfolio/data';
@@ -94,9 +93,17 @@ We believe that true innovation comes from harmony between technology and human 
                           </Box>
                           <Box {...portfolioDetails}>
                             <PortfolioLink>
-                              <Link href={portfolioItem.link || '#'}>
-                                VISIT LIVE SITE
-                              </Link>
+                              <Link
+                                  href={portfolioItem.link || '#'}
+                                  style={{
+                                      pointerEvents: portfolioItem.link ? 'none' : 'none',
+                                      opacity: portfolioItem.link ? 1 : 0.5,
+                                      cursor: portfolioItem.link ? 'not-allowed' : 'not-allowed',
+                                    }}
+                                  >
+                                {portfolioItem.link}
+                            </Link>
+
                             </PortfolioLink>
                             <Heading
                               content={portfolioItem.title}
@@ -156,8 +163,8 @@ PortfolioShowcase.propTypes = {
 
 PortfolioShowcase.defaultProps = {
   sectionWrapper: {
-    pt: ['60px', '80px', '100px', '110px', '150px'],
-    pb: ['60px', '80px', '100px', '110px', '150px'],
+    pt: ['40px', '50px', '60px', '70px', '90px'],
+    pb: ['40px', '50px', '60px', '70px', '90px'],
   },
   secTitleWrapper: {
     width: ['100%', '100%', '60%', '50%', '50%'],

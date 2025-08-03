@@ -43,7 +43,7 @@ const Footer = ({
               content="So, do we work together?"
               {...titleStyle}
             />
-            <Link href="#">
+            <Link href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F">
               <Heading as="h3" content="LET'S TALK!" {...linkStyle} />
             </Link>
           </Box>
@@ -77,17 +77,15 @@ const Footer = ({
             />
             <Link href="#">
               {' '}
-              <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
+              <Text as="span" content=" Simetri" {...copyrightStyle} />
             </Link>
           </Box>
           <Box {...col} {...flexBox}>
             <Box {...contactItem}>
-              <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
             </Box>
             <Box {...contactItem}>
               <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+479-443-9334" {...contactInfo} />
+              <Text content="+62 851 2132 7852" {...contactInfo} />
             </Box>
           </Box>
         </Box>

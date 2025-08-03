@@ -66,7 +66,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#" className="navbar_drawer_button">
+              <Link href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F" className="navbar_drawer_button">
                 <Button {...button} title="LET'S TALK" />
               </Link>
             </Drawer>

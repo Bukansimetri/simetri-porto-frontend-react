@@ -1,8 +1,6 @@
-import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
+
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
 import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
@@ -38,23 +36,11 @@ import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
 export const SOCIAL_PROFILES = [
   {
-    icon: socialTwitter,
-    url: '#',
-  },
-  {
     icon: socialFacebook,
     url: '#',
   },
   {
-    icon: socialDribbbleOutline,
-    url: '#',
-  },
-  {
     icon: socialGithub,
-    url: '#',
-  },
-  {
-    icon: socialGoogleplusOutline,
     url: '#',
   },
 ];
@@ -68,11 +54,6 @@ export const MENU_ITEMS = [
   {
     label: 'PROJECT',
     path: '#portfolio_section',
-    offset: '0',
-  },
-  {
-    label: 'AWARDS',
-    path: '#awards_section',
     offset: '0',
   },
   {
@@ -119,12 +100,12 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'DESIGN',
+    title: 'WEB',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'Japanese Tobacco International',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "JTI merupakan sistem CRM dimana kami mengelola data pelanggan yang di dapatkan dari para brand ambasador JTI menggunakan Aplikasi JTI. Sistem ini juga ddigunakan untuk mengelola tracking dari para brand ambasador JTI, dan absensi. Selain itu sistme ini juga digunakan untuk mengelola data even yang diadakan oleh JTI. Serta terdapat juga fitur untuk perhitungan fee dan bonus untuk para Brand AMbasador serta para Team leadernya",
         image: PortfolioImage1,
         link: '#',
         featuredIn: 'AWWWARDS',
@@ -134,13 +115,13 @@ export const PORTFOLIO_SHOWCASE = [
         feedback: '1.2K',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'CakePHP',
           },
           {
-            content: 'Next JS',
+            content: 'HTML, CSS, JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Android Native',
           },
         ],
       },
@@ -170,58 +151,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'DEVELOPMENT',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'ANIMATION',
+    title: 'APPLICATION',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -272,58 +202,7 @@ export const PORTFOLIO_SHOWCASE = [
     ],
   },
   {
-    title: 'TV ADVERTISEMENT',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'MARKETING',
+    title: 'DIGITAL MARKETING',
     portfolioItem: [
       {
         title: 'Canada Media Site',
@@ -378,45 +257,45 @@ export const PORTFOLIO_SHOWCASE = [
 export const PROCESS_STEPS = [
   {
     image: Step1,
-    title: '1. Research',
+    title: '1. Discover',
     description:
-      'We work with you to understand user’s stories and validate your idea with real users using lean design sprints.',
+      'We begin by understanding your business challenges. Through collaborative discussions and lean research, we help you map the problems and outline the right digital solution.',
   },
   {
     image: Step2,
-    title: '2. Design',
+    title: '2. Plan & Design',
     description:
-      'Expanding on the insights gained, you’ll work closely with our design team to create an elegant design',
+      'With the insights gathered, our team develops system flows, information architecture, and user-friendly designs to ensure intuitive and efficient user experiences.',
   },
   {
     image: Step3,
-    title: '3. Build',
+    title: '3. Build & Launch',
     description:
-      'With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you ',
+      'Using modern frameworks and agile development, we build, test, and deploy your solution with iterative releases every 1–2 weeks, allowing continuous feedback and improvements.',
   },
 ];
 
 export const SERVICE_LIST = [
   {
-    title: 'UI/UX Design',
+    title: 'Digital Marketing',
     listItems: [
       {
-        content: 'Design Sprints',
+        content: 'Add Strategy & Planning',
       },
       {
-        content: 'User Research',
+        content: 'Copywriting & Creative',
       },
       {
-        content: 'Visual Design',
+        content: 'Campaign Setup',
       },
       {
-        content: 'Mobile App Design',
+        content: 'Campaign Setup',
       },
       {
-        content: 'Tracking & Learning',
+        content: 'Chat Bot',
       },
       {
-        content: 'Building Traction',
+        content: 'Campaign Setup',
       },
     ],
   },
@@ -430,7 +309,7 @@ export const SERVICE_LIST = [
         content: 'AngularJS',
       },
       {
-        content: 'ASP.NET MVC',
+        content: 'Laravel',
       },
       {
         content: 'WordPress',
@@ -440,6 +319,9 @@ export const SERVICE_LIST = [
       },
       {
         content: 'GO',
+      },
+      {
+        content: 'Java Spring Boot',
       },
     ],
   },
@@ -456,13 +338,7 @@ export const SERVICE_LIST = [
         content: 'React Native',
       },
       {
-        content: 'Ionic & Apache Cordova',
-      },
-      {
-        content: 'NodeJS',
-      },
-      {
-        content: '3D & VR',
+        content: 'Flutter',
       },
     ],
   },
@@ -472,28 +348,28 @@ export const SKILLS = [
   {
     title: 'Graphic Design',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'We craft purposeful visual designs to support your brand identity and enhance user experiences across digital platforms.',
     icon: SkillIcon1,
-    successRate: '90',
+    successRate: '85',
   },
   {
-    title: 'UI/UX Design',
+    title: 'Digital Marketing',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'From landing pages to analytics, we build systems that empower your digital marketing efforts to perform better and scale faster.',
     icon: SkillIcon2,
-    successRate: '85',
+    successRate: '95',
   },
   {
     title: 'Web Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'We develop scalable and secure web applications using modern frameworks like Laravel, tailored to meet your business needs.',
     icon: SkillIcon3,
-    successRate: '80',
+    successRate: '90',
   },
   {
     title: 'Mobile Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Our team builds cross-platform mobile apps, ensuring optimal performance and seamless user experience.',
     icon: SkillIcon4,
     successRate: '70',
   },
@@ -562,14 +438,6 @@ export const TESTIMONIAL = [
 export const FOOTER_MENU = [
   {
     label: 'Contact',
-    path: '#',
-  },
-  {
-    label: 'Privacy',
-    path: '#',
-  },
-  {
-    label: 'Cookie Policy',
     path: '#',
   },
 ];

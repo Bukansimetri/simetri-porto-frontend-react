@@ -44,7 +44,8 @@ const ContactSection = ({
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button
-              title="murdiantokops@gmail.com"
+              href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F"
+              title="Let's Talk"
               className="portfolio_button"
               {...buttonStyle}
             />
@@ -70,7 +71,7 @@ ContactSection.defaultProps = {
   sectionWrapper: {
     pt: ['70px', '80px', '100px', '110px', '140px'],
     pb: ['70px', '80px', '100px', '110px', '140px'],
-    bg: '#f9f9f9',
+    bg: '#fff',
   },
   secTitleWrapper: {
     mb: '30px',

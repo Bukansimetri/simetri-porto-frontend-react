@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Line } from 'rc-progress';
-import { Icon } from 'react-icons-kit';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
@@ -11,14 +9,10 @@ import Container from 'common/components/UI/Container';
 import {
   SkillItem,
   SkillDetails,
-  SkillProgress,
-  SuccessRate,
-  ProgressBar,
   SkillIcon,
   SkillAbout,
 } from './skill.style';
 import { SKILLS } from 'common/data/Portfolio/data';
-import { ic_thumb_up } from 'react-icons-kit/md/ic_thumb_up';
 
 const SkillSection = ({
   sectionWrapper,
@@ -29,8 +23,6 @@ const SkillSection = ({
   col,
   skillTitle,
   skillDescription,
-  skillSuccessRate,
-  successRateText,
 }) => {
   return (
     <Box {...sectionWrapper} as="section">
@@ -59,35 +51,6 @@ const SkillSection = ({
                     <Text content={item.description} {...skillDescription} />
                   </SkillAbout>
                 </SkillDetails>
-                <SkillProgress>
-                  <SuccessRate>
-                    <Icon
-                      icon={ic_thumb_up}
-                      size={12}
-                      className="skill_success_icon"
-                    />
-                    <Text
-                      as="span"
-                      content={`${item.successRate}% `}
-                      {...skillSuccessRate}
-                    />
-                    <Text
-                      as="span"
-                      content="Success Rate"
-                      {...skillSuccessRate}
-                      {...successRateText}
-                    />
-                  </SuccessRate>
-                  <ProgressBar>
-                    <Line
-                      percent={item.successRate}
-                      strokeWidth="1.8"
-                      trailWidth="1.8"
-                      strokeColor="#3444f1"
-                      trailColor="#e3e7f2"
-                    />
-                  </ProgressBar>
-                </SkillProgress>
               </SkillItem>
             </Box>
           ))}

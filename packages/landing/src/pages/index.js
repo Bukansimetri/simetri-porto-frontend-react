@@ -9,7 +9,6 @@ import { GlobalStyle, ContentWrapper } from 'containers/Portfolio/portfolio.styl
 
 import BannerSection from 'containers/Portfolio/Banner';
 import Navbar from 'containers/Portfolio/Navbar';
-import AwardsSection from 'containers/Portfolio/Awards';
 import PortfolioShowcase from 'containers/Portfolio/PortfolioShowcase';
 import ProcessSection from 'containers/Portfolio/Process';
 import SkillSection from 'containers/Portfolio/Skill';
@@ -45,12 +44,9 @@ const Portfolio = () => {
           </Sticky>
           <BannerSection />
           <PortfolioShowcase />
-          <AwardsSection />
           <ProcessSection />
           <SkillSection />
           <CallToAction />
-          <TestimonialSection />
-          <ClientsSection />
           <ContactSection />
           <Footer />
         </ContentWrapper>

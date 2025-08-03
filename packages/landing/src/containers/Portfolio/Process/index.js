@@ -43,11 +43,11 @@ const ProcessSection = ({
         <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
-            content="From Lean Design Sprints to Agile Development"
+            content="From Insight to Scalable Digital Solutions"
           />
           <Text
             {...secDescription}
-            content="Our process is designed to give you the best shot at success."
+            content="Our process is designed to turn your ideas into dependable, scalable technology."
           />
         </Box>
 
@@ -74,26 +74,23 @@ const ProcessSection = ({
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="Which is why we Never Stop Learning."
+              content="Why Work With Simetri?"
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
+              content="We believe building technology is more than writing code—it's about understanding people and problems."
               {...learningSubTitle}
             />
             <Text
               {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
-            />
-            <Text
-              {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
+              content="Simetri is founded by professionals with real-world experience in banking, education, and digital business, allowing us to deliver solutions that actually work for your industry."
             />
             <Box {...buttonWrapper}>
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
                 <Button
-                  title="hello@redq.io"
+                  href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F"
+                  title="Let's Talk"
                   className="portfolio_button"
                   {...buttonStyle}
                 />
