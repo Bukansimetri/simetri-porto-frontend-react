@@ -11,8 +11,8 @@ import AwardImage2 from '../../assets/image/portfolio/award-2.png';
 import AwardImage3 from '../../assets/image/portfolio/award-3.png';
 import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
-import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
-import PortfolioImage2 from '../../assets/image/portfolio/portfolio-2.jpg';
+import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.png';
+import PortfolioImage2 from '../../assets/image/portfolio/portfolio-2.png';
 
 import Step1 from '../../assets/image/portfolio/step-1.png';
 import Step2 from '../../assets/image/portfolio/step-2.png';
@@ -105,11 +105,11 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Japanese Tobacco International',
         description:
-          "JTI merupakan sistem CRM dimana kami mengelola data pelanggan yang di dapatkan dari para brand ambasador JTI menggunakan Aplikasi JTI. Sistem ini juga ddigunakan untuk mengelola tracking dari para brand ambasador JTI, dan absensi. Selain itu sistme ini juga digunakan untuk mengelola data even yang diadakan oleh JTI. Serta terdapat juga fitur untuk perhitungan fee dan bonus untuk para Brand AMbasador serta para Team leadernya",
+          "This custom CRM was developed to serve as the central operational hub for JTI's marketing ambassador program. It efficiently manages customer data collected by ambassadors in the field via a dedicated mobile application. The platform provides full visibility into ambassador activities, including real-time GPS tracking and digital attendance. Furthermore, it serves as a powerful event management tool for planning and overseeing JTI-sponsored events. A core feature is its automated payroll engine, which accurately calculates performance-based fees and bonuses for both ambassadors and their team leaders, ensuring transparency and efficiency.",
         image: PortfolioImage1,
-        link: '#',
+        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AWWWARDS',
-        featuredLink: '#',
+        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
         view: '4.5K',
         love: '1.5K',
         feedback: '1.2K',
@@ -126,25 +126,25 @@ export const PORTFOLIO_SHOWCASE = [
         ],
       },
       {
-        title: 'RedQ, Inc. mobile app',
+        title: 'Djarum MLD Code 2 Ibiza',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Developed a full-stack CRM solution for a nationwide marketing campaign spanning 20+ cities. The system featured a native Android app for field ambassadors to scan QR codes and capture customer data at events, paired with a powerful PHP web admin panel for customer/point management, QR code generation, and real-time sales and attendance reporting.",
         image: PortfolioImage2,
-        link: '#',
+        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AppStore',
-        featuredLink: '#',
+        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
         view: '8.5K',
         love: '5.5K',
         feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'CakePHP',
           },
           {
-            content: 'Next JS',
+            content: 'HTML, CSS, JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Android Native',
           },
         ],
       },
@@ -154,48 +154,48 @@ export const PORTFOLIO_SHOWCASE = [
     title: 'APPLICATION',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'Japanese Tobacco International',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "This custom CRM was developed to serve as the central operational hub for JTI's marketing ambassador program. It efficiently manages customer data collected by ambassadors in the field via a dedicated mobile application. The platform provides full visibility into ambassador activities, including real-time GPS tracking and digital attendance. Furthermore, it serves as a powerful event management tool for planning and overseeing JTI-sponsored events. A core feature is its automated payroll engine, which accurately calculates performance-based fees and bonuses for both ambassadors and their team leaders, ensuring transparency and efficiency.",
         image: PortfolioImage1,
-        link: '#',
+        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AWWWARDS',
-        featuredLink: '#',
+        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
         view: '4.5K',
         love: '1.5K',
         feedback: '1.2K',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'CakePHP',
           },
           {
-            content: 'Next JS',
+            content: 'HTML, CSS, JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Android Native',
           },
         ],
       },
       {
-        title: 'RedQ, Inc. mobile app',
+        title: 'Djarum MLD Code 2 Ibiza',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Developed a full-stack CRM solution for a nationwide marketing campaign spanning 20+ cities. The system featured a native Android app for field ambassadors to scan QR codes and capture customer data at events, paired with a powerful PHP web admin panel for customer/point management, QR code generation, and real-time sales and attendance reporting.",
         image: PortfolioImage2,
-        link: '#',
+        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AppStore',
-        featuredLink: '#',
+        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
         view: '8.5K',
         love: '5.5K',
         feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'CakePHP',
           },
           {
-            content: 'Firebase',
+            content: 'HTML, CSS, JS',
           },
           {
-            content: 'Styled Component',
+            content: 'Android Native',
           },
         ],
       },
