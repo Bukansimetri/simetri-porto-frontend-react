@@ -23,7 +23,9 @@ const BannerSection = ({
           <Box {...contentArea}>
             <Heading content="Crafting Balanced Digital Experiences" {...nameStyle} />
             <Text
-              content="Kami membangun solusi digital yang tidak hanya berfungsi, tapi juga terasa tepat secara visual dan teknis. Ingin tahu solusi terbaik untuk bisnis Anda? Konsultasi bersama kami gratis, tanpa komitmen."
+              content="We craft digital experiences where stunning design meets flawless performance. 
+              It’s not just about functionality; it’s about creating something that feels right. 
+              Curious about what we can build for you? Let's talk. Your first consultation is completely free, no strings attached."
               {...aboutStyle}
             />
           </Box>

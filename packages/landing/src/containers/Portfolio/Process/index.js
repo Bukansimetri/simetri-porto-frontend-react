@@ -89,9 +89,9 @@ const ProcessSection = ({
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
                 <Button
-                  href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F"
                   title="Let's Talk"
                   className="portfolio_button"
+                  onClick={() => window.open("https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F", "_blank")}
                   {...buttonStyle}
                 />
               </ButtonWrapper>
@@ -143,7 +143,7 @@ ProcessSection.propTypes = {
 
 ProcessSection.defaultProps = {
   sectionWrapper: {
-    pt: ['60px', '80px', '90px', '100px', '140px'],
+    pt: ['20px', '40px', '70px', '80px', '120px'],
     pb: ['10px', '40px', '30px', '50px', '50px'],
   },
   secTitleWrapper: {

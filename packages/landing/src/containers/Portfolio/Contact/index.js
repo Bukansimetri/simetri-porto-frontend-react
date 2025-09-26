@@ -44,9 +44,9 @@ const ContactSection = ({
         <Box {...buttonWrapper}>
           <ButtonWrapper>
             <Button
-              href="https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F"
               title="Let's Talk"
               className="portfolio_button"
+              onClick={() => window.open("https://wa.me/6285121327852?text=Halo%20ka%2C%20bisa%20dibantu%20untuk%20pembuatan%20website%20nya%20ka%3F", "_blank")}
               {...buttonStyle}
             />
           </ButtonWrapper>

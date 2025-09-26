@@ -13,6 +13,12 @@ import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
 import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.png';
 import PortfolioImage2 from '../../assets/image/portfolio/portfolio-2.png';
+import PortfolioImage3 from '../../assets/image/portfolio/portfolio-3.png';
+import PortfolioImage4 from '../../assets/image/portfolio/portfolio-4.png';
+import PortfolioImage5 from '../../assets/image/portfolio/portfolio-5.png';
+import PortfolioImage6 from '../../assets/image/portfolio/portfolio-6.png';
+import PortfolioImage7 from '../../assets/image/portfolio/portfolio-7.png';
+import PortfolioImage8 from '../../assets/image/portfolio/portfolio-8.png';
 
 import Step1 from '../../assets/image/portfolio/step-1.png';
 import Step2 from '../../assets/image/portfolio/step-2.png';
@@ -47,7 +53,7 @@ export const SOCIAL_PROFILES = [
 
 export const MENU_ITEMS = [
   {
-    label: 'ME',
+    label: 'US',
     path: '#banner_section',
     offset: '0',
   },
@@ -57,7 +63,7 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'WHY ME?',
+    label: 'WHY US?',
     path: '#process_section',
     offset: '0',
   },
@@ -100,16 +106,16 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'WEB',
+    title: 'OUR PROJECTS',
     portfolioItem: [
       {
-        title: 'Japanese Tobacco International',
+        title: 'Japanese Tobacco International (JTI) - CRM Web App',
         description:
-          "This custom CRM was developed to serve as the central operational hub for JTI's marketing ambassador program. It efficiently manages customer data collected by ambassadors in the field via a dedicated mobile application. The platform provides full visibility into ambassador activities, including real-time GPS tracking and digital attendance. Furthermore, it serves as a powerful event management tool for planning and overseeing JTI-sponsored events. A core feature is its automated payroll engine, which accurately calculates performance-based fees and bonuses for both ambassadors and their team leaders, ensuring transparency and efficiency.",
+          "A comprehensive, web-based CRM solution designed specifically for Japanese Tobacco International. This application serves as a centralized analytics dashboard, enabling the management team to monitor sales metrics, track the performance of field teams, and analyze customer data in real-time. With intuitive data visualization, JTI can make more strategic and effective business decisions.",
         image: PortfolioImage1,
-        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
+        link: 'As A Fullstack Develeper At Amaya Perdana Kreasindo',
         featuredIn: 'AWWWARDS',
-        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
+        featuredLink: 'As A Fullstack Develeper At Amaya Perdana Kreasindo',
         view: '4.5K',
         love: '1.5K',
         feedback: '1.2K',
@@ -120,16 +126,30 @@ export const PORTFOLIO_SHOWCASE = [
           {
             content: 'HTML, CSS, JS',
           },
+        ],
+      },
+      {
+        title: 'Japanese Tobacco International (JTI) - Brand Ambassador Application',
+        description:
+          "This Android application was built to empower JTI's Brand Ambassadors. Through the app, they can easily manage daily tasks, report promotional activities, and monitor their achievements and incentives. The user-friendly interface ensures that fieldwork becomes more efficient, measurable, and directly connected to the central office.",
+        image: PortfolioImage2,
+        link: 'As A Fullstack Develeper At Amaya Perdana Kreasindo',
+        featuredIn: 'AppStore',
+        featuredLink: 'As A Fullstack Develeper At Amaya Perdana Kreasindo',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
+        buildWith: [
           {
             content: 'Android Native',
           },
         ],
       },
       {
-        title: 'Djarum MLD Code 2 Ibiza',
+        title: 'Djarum - MLD Code 2 Ibiza',
         description:
-          "Developed a full-stack CRM solution for a nationwide marketing campaign spanning 20+ cities. The system featured a native Android app for field ambassadors to scan QR codes and capture customer data at events, paired with a powerful PHP web admin panel for customer/point management, QR code generation, and real-time sales and attendance reporting.",
-        image: PortfolioImage2,
+          "This project is an integrated digital platform for the Djarum Super MLD Code 2 Ibiza campaign. We developed a web app and an Android application that served as the central hub for participant interaction. Users could register, participate in challenges, and collect points. The underlying CRM system was designed to manage data from thousands of participants and ensure a seamless user experience throughout the campaign period.",
+        image: PortfolioImage3,
         link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AppStore',
         featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
@@ -148,39 +168,77 @@ export const PORTFOLIO_SHOWCASE = [
           },
         ],
       },
-    ],
-  },
-  {
-    title: 'APPLICATION',
-    portfolioItem: [
       {
-        title: 'Japanese Tobacco International',
+        title: 'Trupower Genset - Company Profile & Digital Marketing',
         description:
-          "This custom CRM was developed to serve as the central operational hub for JTI's marketing ambassador program. It efficiently manages customer data collected by ambassadors in the field via a dedicated mobile application. The platform provides full visibility into ambassador activities, including real-time GPS tracking and digital attendance. Furthermore, it serves as a powerful event management tool for planning and overseeing JTI-sponsored events. A core feature is its automated payroll engine, which accurately calculates performance-based fees and bonuses for both ambassadors and their team leaders, ensuring transparency and efficiency.",
-        image: PortfolioImage1,
-        link: 'As A Fullstack Develeper At Coda Prapanca Technology',
-        featuredIn: 'AWWWARDS',
-        featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+          "We built a modern and responsive corporate profile website for Trupower Genset. This website serves not only as a digital showcase for their generator products but also as a powerful marketing tool. With a professional design and comprehensive information, the site aims to enhance Trupower's online visibility, attract prospective customers, and build a trustworthy brand image in the power solution industry.",
+        image: PortfolioImage4,
+        link: 'As A Freelancer Web Developer',
+        featuredIn: 'AppStore',
+        featuredLink: 'As A Freelancer Web Developer',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
         buildWith: [
           {
-            content: 'CakePHP',
+            content: 'PHP Native',
           },
           {
             content: 'HTML, CSS, JS',
           },
           {
-            content: 'Android Native',
+            content: 'Google Ads',
+          },
+          { 
+            content: 'Meta Ads', 
           },
         ],
       },
       {
-        title: 'Djarum MLD Code 2 Ibiza',
+        title: 'Dipetikmart ID - E-commerce Web App',
         description:
-          "Developed a full-stack CRM solution for a nationwide marketing campaign spanning 20+ cities. The system featured a native Android app for field ambassadors to scan QR codes and capture customer data at events, paired with a powerful PHP web admin panel for customer/point management, QR code generation, and real-time sales and attendance reporting.",
-        image: PortfolioImage2,
+          "Dipetikmart ID is an e-commerce platform we developed to meet the demand for online grocery and daily necessities shopping. The web application was designed with a focus on user-friendliness, from product search and item selection to a quick and secure checkout process. Its clean layout and easy navigation provide a pleasant online shopping experience for customers.",
+        image: PortfolioImage5,
+        link: 'As A Freelancer Web Developer',
+        featuredIn: 'AppStore',
+        featuredLink: 'As A Freelancer Web Developer',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'Laravel',
+          },
+          {
+            content: 'HTML, CSS, JS',
+          },
+        ],
+      },
+      {
+        title: 'Athena - Agent Store Dashboard',
+        description:
+          "This is an integrated ERP (Enterprise Resource Planning) and CRM system consolidated into a single web dashboard for Athena. The application is designed to efficiently manage a network of agents and stores. Key features include agent information management, sales monitoring, client registration tracking, and performance reporting. This dashboard serves as a vital tool for Athena to optimize its business operations and relationships with its agents.",
+        image: PortfolioImage6,
+        link: 'As A Freelancer Web Developer',
+        featuredIn: 'AppStore',
+        featuredLink: 'As A Freelancer Web Developer',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
+        buildWith: [
+          {
+            content: 'Laravel',
+          },
+          {
+            content: 'HTML, CSS, JS',
+          },
+        ],
+      },
+      {
+        title: 'Corepadel Sport - POS & Booking System',
+        description:
+          "A complete digital solution for Corepadel Sport, integrating a court booking system with a Point of Sale (POS) system. Through the website, customers can easily view schedules and book padel courts. Meanwhile, for the management, the application facilitates schedule administration, payment processing, and transaction tracking, streamlining the entire business workflow.",
+        image: PortfolioImage7,
         link: 'As A Fullstack Develeper At Coda Prapanca Technology',
         featuredIn: 'AppStore',
         featuredLink: 'As A Fullstack Develeper At Coda Prapanca Technology',
@@ -189,64 +247,30 @@ export const PORTFOLIO_SHOWCASE = [
         feedback: '3.2K',
         buildWith: [
           {
-            content: 'CakePHP',
+            content: 'Laravel',
           },
           {
-            content: 'HTML, CSS, JS',
-          },
-          {
-            content: 'Android Native',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'DIGITAL MARKETING',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
+            content: 'HTML, CSS, JS, Thailwind',
           },
         ],
       },
       {
-        title: 'RedQ, Inc. mobile app',
+        title: 'Minum 24 - E-commerce Web App',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
+          "Minum 24 is an e-commerce platform specializing in the sale of various beverage products. We built a responsive and visually appealing online store, fully accessible from desktops, tablets, and smartphones. Featuring an organized product catalog and a simple checkout process, Minum 24 makes it easy for customers to find and purchase their favorite drinks online.",
+        image: PortfolioImage8,
+        link: 'As A Freelancer Web Developer',
         featuredIn: 'AppStore',
-        featuredLink: '#',
+        featuredLink: 'As A Freelancer Web Developer',
         view: '8.5K',
         love: '5.5K',
         feedback: '3.2K',
         buildWith: [
           {
-            content: 'React Native',
+            content: 'Laravel',
           },
           {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'HTML, CSS, JS, Thailwind',
           },
         ],
       },

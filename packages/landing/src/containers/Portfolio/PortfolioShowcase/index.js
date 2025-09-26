@@ -164,7 +164,7 @@ PortfolioShowcase.propTypes = {
 PortfolioShowcase.defaultProps = {
   sectionWrapper: {
     pt: ['40px', '50px', '60px', '70px', '90px'],
-    pb: ['40px', '50px', '60px', '70px', '90px'],
+    pb: ['20px', '30px', '40px', '50px', '70px'],
   },
   secTitleWrapper: {
     width: ['100%', '100%', '60%', '50%', '50%'],
